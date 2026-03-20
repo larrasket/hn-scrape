@@ -1,6 +1,6 @@
 # hnscrape
 
-Go client for the [Hacker News Firebase API](https://github.com/HackerNews/API) with support for reading reading dead and flagged posts.
+Go client for the [Hacker News Firebase API](https://github.com/HackerNews/API) with support for reading dead and flagged posts.
 
 When HN kills a post it strips the content from the API response. This library scrapes the HTML page for those posts (with your session cookie) so you can still get at the data.
 
